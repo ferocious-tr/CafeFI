@@ -1,0 +1,136 @@
+# 🔒 CafeFlow - Git Ignore Dosyası
+
+# ============================================
+# PYTHON VERTUELCİ ORTAM
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# ORTAM DEĞİŞKENLERİ
+# ============================================
+.env
+.env.local
+.env.*.local
+config/.env
+!.env.example
+
+# ============================================
+# VERİTABANI
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+data/cafeflow.db
+data/backups/
+!data/.gitkeep
+
+# ============================================
+# CACHE VE TEMP DÖSYALARı
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.cache
+.pytest_cache/
+*.pot
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.DS_Store
+Thumbs.db
+
+# ============================================
+# STREAMLIT
+# ============================================
+.streamlit/cache/
+.streamlit/secrets.toml
+.streamlit/logger/
+
+# ============================================
+# IDE VE EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+*.code-workspace
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# LOGLAR
+# ============================================
+logs/
+*.log
+*.log.*
+
+# ============================================
+# EXPORT DOSYALARI
+# ============================================
+data/exports/
+*.xlsx
+*.csv
+*.pdf
+!templates/
+
+# ============================================
+# YEDEK DOSYALARI
+# ============================================
+*.bak
+*.backup
+*.tmp
+
+# ============================================
+# OS DOSYALARI
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+*.lnk
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# İDE CONFIGS
+# ============================================
+.editorconfig
+.pylintrc
+setup.cfg
+
+# ============================================
+# DOCKER (İleride kullanılabilir)
+# ============================================
+docker-compose.override.yml
+.dockerignore
+
+# ============================================
+# NODE MODULES (Opsiyonel frontend için)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# GELIŞTIRME NOTLARı
+# ============================================
+TODO.md
+NOTES.md
+*.todo
+*.wip
+

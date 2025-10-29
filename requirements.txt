@@ -1,0 +1,95 @@
+# 🚀 CafeFlow - Python Bağımlılıkları
+# Kurulum: pip install -r requirements.txt
+
+# ============================================
+# WEB FRAMEWORK ve UI
+# ============================================
+streamlit==1.41.0              # Modern web UI framework
+streamlit-option-menu==0.3.13  # Sidebar menu bileşeni
+streamlit-aggrid==1.1.9        # İnteraktif veri tabloları
+
+# ============================================
+# VERİTABANI
+# ============================================
+sqlalchemy==2.0.34             # ORM ve veritabanı abstraksiyon katmanı
+# psycopg2-binary==2.9.10      # PostgreSQL adapter (production'da gerekli, Windows'ta geliştirme için opsiyonel)
+alembic==1.13.1                # Veritabanı migrasyonları
+
+# ============================================
+# VERİ İŞLEME ve ANALİZ
+# ============================================
+pandas>=2.2.0                  # Veri manipülasyonu ve analizi (Python 3.13 uyumlu)
+numpy>=1.26.2                  # Sayısal hesaplamalar
+openpyxl>=3.1.0                # Excel dosya işlemleri (xlsx)
+xlrd>=2.0.1                    # Excel okuma desteği
+
+# ============================================
+# GÖRSELLEŞTİRME
+# ============================================
+plotly>=5.18.0                 # İnteraktif grafikler
+matplotlib>=3.8.0              # Statik grafik oluşturma
+seaborn>=0.13.0                # Matplotlib üzerinde istatistiksel görselleştirme
+
+# ============================================
+# TARIH ve ZAMAN
+# ============================================
+python-dateutil>=2.8.0         # Tarih/saat işlemleri
+pytz>=2023.0                   # Zaman dilimleri
+
+# ============================================
+# GÜVENLİK ve KRİPTOGRAFİ
+# ============================================
+cryptography>=41.0.0           # Şifreleme kütüphanesi
+PyJWT>=2.8.0                   # JWT token işlemleri
+bcrypt>=4.1.0                  # Parola hashleme
+
+# ============================================
+# ORTAM DEĞİŞKENLERİ
+# ============================================
+python-dotenv>=1.0.0           # .env dosyası desteği
+
+# ============================================
+# LOGGING ve HATA AYIKLAMA
+# ============================================
+loguru>=0.7.0                  # Geliştirilmiş logging
+
+# ============================================
+# API ve WEB REQUESTLERI
+# ============================================
+requests>=2.31.0               # HTTP istemci
+httpx>=0.25.0                  # Modern HTTP client
+
+# ============================================
+# VERİ DOĞRULAMA
+# ============================================
+pydantic>=2.5.0                # Veri doğrulama ve serialization
+email-validator>=2.1.0         # Email doğrulama
+
+# ============================================
+# BULUT DEPOLAMASı (İsteğe Bağlı)
+# ============================================
+# boto3>=1.29.7                # AWS S3 desteği
+# google-cloud-storage>=2.10.0 # Google Cloud Storage desteği
+
+# ============================================
+# RAPORLAMA
+# ============================================
+reportlab>=4.0.0               # PDF oluşturma
+jinja2>=3.1.0                  # Template engine
+
+# ============================================
+# GELIŞTIRME ARAÇLARI
+# ============================================
+# pytest==7.4.3                # Test framework
+# pytest-cov==4.1.0            # Test coverage
+# black==23.12.0               # Code formatter
+# flake8==6.1.0                # Code linter
+# pylint==3.0.3                # Code analyzer
+# mypy==1.7.1                  # Static type checker
+
+# ============================================
+# SÜRÜM BİLGİSİ
+# ============================================
+# Python: 3.8+
+# Güncelleme Tarihi: 27 Ekim 2025
+

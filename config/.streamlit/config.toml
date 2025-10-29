@@ -1,0 +1,90 @@
+# 🎨 Streamlit Konfigürasyonu - CafeFlow
+
+# ============================================
+# TEMA AYARLARI
+# ============================================
+[theme]
+primaryColor = "#8B4513"           # Kahverengi (ana renk)
+backgroundColor = "#F5E6D3"        # Açık krem (arka plan)
+secondaryBackgroundColor = "#E8D4C0"  # Hafif kahverengi
+textColor = "#1A1A1A"              # Koyu metin
+font = "sans serif"
+
+# ============================================
+# İSTEMCİ (CLIENT) AYARLARI
+# ============================================
+[client]
+# Araç çubuğunu göster
+toolbarMode = "developer"
+
+# Maksimum dosya yükleme boyutu (MB)
+maxUploadSize = 200
+
+# Gösterge ölçüsünü geri al
+showErrorDetails = true
+
+# ============================================
+# SUNUCU (SERVER) AYARLARI
+# ============================================
+[server]
+# Sunucu portu
+port = 8501
+
+# Başlangıçta tarayıcı açılmasın
+headless = false
+
+# Dosya kaydedildiğinde otomatik yeniden yükle
+runOnSave = true
+
+# Maksimum istisna boyutu (MB)
+maxMessageSize = 200
+
+# WebSocket sıkıştırmasını etkinleştir
+enableXsrfProtection = true
+
+# ============================================
+# LOGGER (LOG) AYARLARI
+# ============================================
+[logger]
+# Log seviyesi: debug, info, warning, error
+level = "info"
+
+# Mesaj formatı
+messageFormat = "%(asctime)s [%(levelname)s] %(message)s"
+
+# ============================================
+# HARİTA AYARLARI
+# ============================================
+[mapbox]
+# MapBox token (opsiyonel)
+# token = "your_mapbox_token"
+
+# ============================================
+# ENCRYPTİON AYARLARI
+# ============================================
+[client.showErrorDetails]
+expanderHeader = true
+
+# ============================================
+# DEĞİŞKEN (DEPRECATION) UYARISLARI
+# ============================================
+[deprecation.showImageLabel]
+showWarning = false
+
+[deprecation.showPyplotGlobalUse]
+showWarning = false
+
+# ============================================
+# PERFORMANCE OPTIMIZATION
+# ============================================
+[client.caching]
+# Widget state'ini cache et
+showCachedWidgets = true
+
+# ============================================
+# SESSION STATE
+# ============================================
+# Session state'i disk'e kaydet (reload'larda kalıcı)
+[client.useSessionState]
+useSessionState = true
+

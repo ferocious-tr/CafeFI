@@ -365,7 +365,7 @@ def render_sales_page():
             products = db.query(Product).filter(Product.is_active == True).order_by(Product.name).all()
             
             if not products:
-                st.warning("Aktif ürün yok! Lütfen Stok Yönetimi sayfasında ürün oluşturun.")
+                st.warning("Aktif ürün yok! Lütfen Malzeme ve Ürün Yönetimi sayfasında ürün oluşturun.")
             else:
                 with st.form("sales_form"):
                     col1, col2 = st.columns(2)
